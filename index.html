@@ -1,41 +1,70 @@
 <!DOCTYPE html>
+
 <html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="estilos.css">
+        <title>Emanuel Sandoval - Desarrollador Web </title>
+    </head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="estilos.css">
-    <title>Emanuel Sandoval - Desarrollador Web </title>
-</head>
+    <body>
+        <div class="contenedor">
+            <header>
+                <!-- LOGO -->
+                <div class="logo">
+                    <h1> Emanuel Sandoval </h1>
+                    <p> Desarrollador Web </p>
+                </div>
 
-<body>
-    <div class="contenedor">
-        <header>
-            
-            
-            <!-- LOGO -->
-            <div class="logo">
-                <h1> Emanuel Sandoval </h1>
-                <p> Desarrollador Web </p>
-            </div>
+                <!-- BUSCADOR -->
+                <form action="">
+                    <input type="text" class="barra-busqueda" id="barra-busqueda" placeholder="Buscar">
+                </form>
 
-            <!-- BUSCADOR -->
-            <form action="">
-                <input type="text" class="barra-busqueda" id="barra-busqueda" placeholder="Buscar">
-            </form>
+                <!-- BARRA DE NAVEGACION -->
+                <div class="categorias" id="categorias">
+                    <a href="#" class="activo"> Todos </a>
+                    <a href="#"> Naturaleza </a>
+                    <a href="#"> Ciudades </a>
+                    <a href="#"> Personas </a>
+                    <a href="#"> Animales </a>
+                </div>
+            </header>
 
-            <!-- BARRA DE NAVEGACION -->
-            <div class="categorias" id="categorias">
-                <a href="#" class="activo"> Todos </a>
-                <a href="#"> Naturaleza </a>
-                <a href="#"> Ciudades </a>
-                <a href="#"> Personas </a>
-                <a href="#"> Animales </a>
-            </div>
+            <section class="grid">
+                <!-- GRID -->
+                <div class="item">
 
-        </header>
-    </div>
-</body>
+                    <div class="item-contenido">
+                        <img src="img/ciudad1.png" alt="">
+                    </div>
 
+                </div>
+
+                <div class="item">
+
+                    <div class="item-contenido">
+                        <img src="img/ciudad1.png" alt="">
+                    </div>
+
+                </div>
+
+                <div class="item">
+
+                    <div class="item-contenido">
+                        <img src="img/ciudad1.png" alt="">
+                    </div>
+
+                </div>
+            </section>
+
+
+            <!-- SCRIPTS -->
+            <script src="https://cdn.jsdelivr.net/npm/muuri@0.9.5/dist/muuri.min.js"></script>
+            <script src="https://cdn.jsdelivr.net/npm/web-animations-js@2.3.2/web-animations.min.js"></script>
+            <script src="main.js"></script>
+        </div>
+    </body>
 </html>
