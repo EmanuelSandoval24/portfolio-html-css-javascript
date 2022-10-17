@@ -80,8 +80,12 @@ header .categorias a.activo{
 .grid {
     position: relative;
     width: 100%;
+    opacity: 0;
+    transition: opacity 0.5s linear 1s;
+}
 
-
+.grid.imagenes-cargadas{
+    opacity: 1;
 }
 
 .grid .item {
@@ -101,3 +105,5 @@ header .categorias a.activo{
     cursor: pointer;
     vertical-align: top;
 }
+
+
