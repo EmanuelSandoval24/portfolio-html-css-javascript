@@ -5,7 +5,7 @@ const grid = new Muuri(".grid", {
 });
 
 
-/* Efecto del Grid */
+/* EFECTOS DEL GRID */
 window.addEventListener("load", () => {
     document.getElementById("grid").classList.add("imagenes-cargadas");
 })
